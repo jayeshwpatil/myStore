@@ -150,7 +150,7 @@ export default {
     async fetchData() {
       try {
         const response = await axios.get(
-          'https://jayeshwpatil.github.io/jsonDataFiles/shoppingCart.json'
+          'https://jayeshwpatil.github.io/myStore/shoppingCart.json'
         )
         this.products = response.data
       } catch (error) {
